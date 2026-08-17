@@ -16,56 +16,56 @@ const galleryItems: GalleryItem[] = [
     category: "Wildlife",
     title: "Leopard in Yala National Park",
     image: "https://images.unsplash.com/photo-1677298294740-9dce87a49ba3?q=80&w=2032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-1 aspect-square lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-1 lg:aspect-auto"
   },
   {
     id: "2",
     category: "Tea Country",
     title: "Emerald Estate Tea Hills, Nuwara Eliya",
     image: "https://images.unsplash.com/photo-1760532511219-c8b7566f90af?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-2 aspect-[3/4] lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-2 lg:aspect-auto"
   },
   {
     id: "3",
     category: "Train Journey",
     title: "Scenic Highlands Blue Train Crossing",
     image: "https://images.unsplash.com/photo-1566976273017-6e6df9bbdbee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-2 lg:row-span-1 aspect-[16/9] lg:aspect-auto"
+    colSpan: "lg:col-span-2 lg:row-span-1 lg:aspect-auto"
   },
   {
     id: "4",
     category: "Beaches",
     title: "Palm Coves & Sunsets in Mirissa",
     image: "https://images.unsplash.com/photo-1522310193626-604c5ef8be43?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-1 aspect-square lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-1 lg:aspect-auto"
   },
   {
     id: "5",
     category: "Ancient Architecture",
     title: "Sigiriya Lion Rock Citadel",
     image: "https://images.unsplash.com/photo-1711100358818-bd901363d56a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-1 aspect-square lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-1 lg:aspect-auto"
   },
   {
     id: "6",
     category: "Local Culture",
     title: "Sacred Ceremonial Monk Walking",
     image: "https://images.unsplash.com/photo-1624963145721-277432579507?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-2 aspect-[3/4] lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-2 lg:aspect-auto"
   },
   {
     id: "7",
     category: "Sri Lankan Cuisine",
     title: "Traditional Riceand Curry with Fresh Ingredients",
     image: "https://images.unsplash.com/photo-1742281095650-dd3c50c08772?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-2 lg:row-span-1 aspect-[16/9] lg:aspect-auto"
+    colSpan: "lg:col-span-2 lg:row-span-1 lg:aspect-auto"
   },
   {
     id: "8",
     category: "Mountains",
     title: "Little Adam's Peak",
     image: "https://images.unsplash.com/photo-1517586220462-f5712b9ec531?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1200&q=80",
-    colSpan: "lg:col-span-1 lg:row-span-1 aspect-square lg:aspect-auto"
+    colSpan: "lg:col-span-1 lg:row-span-1 lg:aspect-auto"
   }
 ];
 
