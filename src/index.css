@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --color-forest: #122C1A;
+  --color-forest-light: #2A4A33;
+  --color-sand: #F3EFE9;
+  --color-sand-dark: #EAE3D8;
+  --color-terracotta: #C15C3D;
+  --color-terracotta-hover: #A84C30;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-light: #555555;
+  --color-offwhite: #FAF8F5;
+}
+
+/* Custom scroll behavior and base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+  overflow-x: hidden;
+}
+
+/* Smooth focus rings for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 4px;
+}
+
+/* Standard animation utility overrides if needed */
+.scroll-indicator-pulse {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
