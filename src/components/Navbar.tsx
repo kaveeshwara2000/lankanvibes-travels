@@ -126,15 +126,15 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <button
+          <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`lg:hidden p-2 rounded-md focus:outline-none transition-colors duration-300 ${
+            className={`relative z-50 lg:hidden p-2 rounded-md focus:outline-none transition-colors duration-300 ${
               isScrolled ? "text-forest hover:bg-sand-dark" : "text-white hover:bg-white/10"
             }`}
             aria-expanded={isMobileMenuOpen}
             aria-label="Toggle mobile menu"
           >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenuOpen ? <X size={12} /> : <Menu size={24} />}
           </button>
         </div>
       </header>

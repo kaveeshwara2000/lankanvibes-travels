@@ -68,7 +68,7 @@ export default function Destinations() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: idx * 0.05 }}
-              className={`relative group overflow-hidden border border-sand-dark cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-end min-h-[350px] ${getColSpanClass(
+              className={`relative group overflow-hidden border border-sand-dark w-full cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-end min-h-[350px] ${getColSpanClass(
                 idx
               )}`}
               onClick={handleScrollToContact}
